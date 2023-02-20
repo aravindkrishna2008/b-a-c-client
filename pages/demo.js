@@ -145,7 +145,7 @@ const App = () => {
         {alphabet.map((letter) => {
           if (letter.toLowerCase() === "a") {
             return (
-              <img
+              <Image
                 src="/alphabet/a.jpg"
                 alt="logo"
                 className="asl-image"
